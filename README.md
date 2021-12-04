@@ -1,5 +1,9 @@
 # SSIS_Util
-extract connection, SQL from SSIS(SQL Server Integration Service ) package file(.dtsx)
+extract connection, SQL from SSIS(SQL Server Integration Service ) package file(.dtsx)   
+
+## Source code description
+SSIS_Util: SSIS package file(.dtsx)에서 SQL을 추출하는 도구   
+https://prodtool.tistory.com/86   
 
 ## help   
 ```
