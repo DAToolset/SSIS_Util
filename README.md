@@ -1,8 +1,20 @@
 # SSIS_Util
 extract connection, SQL from SSIS(SQL Server Integration Service ) package file(.dtsx)
 
-## usage   
-python ssis_util.py --in_path .\in --out_path .\out   
+## help   
+```
+python ssis_util.py --help   
+usage: ssis_util.py [-h] --in_path IN_PATH --out_path OUT_PATH   
+
+optional arguments:   
+  -h, --help           show this help message and exit   
+  --in_path IN_PATH    input path with dtsx files   
+  --out_path OUT_PATH  output path with extracted sql files from dtsx files   
+```
+## run command   
+```
+python ssis_util.py --in_path .\in --out_path .\out
+```
 
 ## output sample SQL
 ```SQL
